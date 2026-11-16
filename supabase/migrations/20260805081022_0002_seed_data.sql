@@ -1,4 +1,4 @@
-/*
+﻿/*
 # Seed Default Data
 
 ## Overview
@@ -16,16 +16,16 @@ INSERT INTO settings (business_name, tagline, phone, whatsapp, email, address, g
 VALUES (
   'Maa Ki Rasoi',
   'घर जैसा खाना, घर जैसा प्यार',
-  '9826567890',
-  '9826567890',
-  'maakirasoiankit65679@gmail.com',
+  '9876543210',
+  '9876543210',
+  'contact@maakirasoi.demo',
   'Gopalganj, Sagar (Madhya Pradesh)',
   'https://maps.google.com/?q=Gopalganj+Sagar+Madhya+Pradesh',
   'सुबह 6:00 बजे से रात 10:00 बजे तक',
   300,
   'धन्यवाद! - माा की रसोई',
   '₹',
-  'maakirasoiankit65679@gmail.com'
+  'contact@maakirasoi.demo'
 )
 ON CONFLICT (id) DO NOTHING;
 

@@ -1,4 +1,4 @@
-import { createClient } from "npm:@supabase/supabase-js@2.57.4";
+﻿import { createClient } from "npm:@supabase/supabase-js@2.57.4";
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
@@ -34,7 +34,7 @@ Deno.serve(async (req: Request) => {
     });
 
     const { data: settings } = await adminClient.from("settings").select("admin_email").limit(1).maybeSingle();
-    const adminEmail = settings?.admin_email || "maakirasoiankit65679@gmail.com";
+    const adminEmail = settings?.admin_email || "contact@maakirasoi.demo";
 
     if (userData.user.email !== adminEmail) {
       return new Response(JSON.stringify({ error: "Admin access required" }), {

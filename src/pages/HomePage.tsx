@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+﻿import { useEffect, useState } from 'react';
 import {
   Phone, MessageCircle, MapPin, Clock, Utensils, Heart, Shield, Wallet,
   Users, Star, ChevronDown, Menu, X, LogIn, CheckCircle2, ChefHat,
@@ -13,7 +13,7 @@ import { CustomerLoginModal } from '@/components/public/CustomerLoginModal';
 
 const DEFAULT_SETTINGS: Settings = {
   id: '', business_name: 'Maa Ki Rasoi', tagline: 'घर जैसा खाना, घर जैसा प्यार',
-  phone: '9826567890', whatsapp: '9826567890', email: 'maakirasoiankit65679@gmail.com',
+  phone: '9876543210', whatsapp: '9876543210', email: 'contact@maakirasoi.demo',
   address: 'Gopalganj, Sagar (Madhya Pradesh)',
   google_map_url: 'https://maps.google.com/?q=Gopalganj+Sagar+Madhya+Pradesh',
   business_timing: 'सुबह 6:00 बजे से रात 10:00 बजे तक',

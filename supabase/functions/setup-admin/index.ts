@@ -1,4 +1,4 @@
-import { createClient } from "npm:@supabase/supabase-js@2.57.4";
+﻿import { createClient } from "npm:@supabase/supabase-js@2.57.4";
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
@@ -6,7 +6,7 @@ const corsHeaders = {
   "Access-Control-Allow-Headers": "Content-Type, Authorization, X-Client-Info, Apikey",
 };
 
-const ADMIN_EMAIL = "maakirasoiankit65679@gmail.com";
+const ADMIN_EMAIL = "contact@maakirasoi.demo";
 const ADMIN_PASSWORD = "156496441UYSGgo^%$$";
 
 Deno.serve(async (req: Request) => {

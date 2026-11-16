@@ -1,4 +1,4 @@
-/*
+﻿/*
 # Maa Ki Rasoi - Core Schema
 
 ## Overview
@@ -50,14 +50,14 @@ CREATE TABLE IF NOT EXISTS settings (
   tagline text DEFAULT 'घर जैसा खाना, घर जैसा प्यार',
   phone text NOT NULL DEFAULT '9826xxxxxx',
   whatsapp text NOT NULL DEFAULT '9826xxxxxx',
-  email text NOT NULL DEFAULT 'maakirasoiankit65679@gmail.com',
+  email text NOT NULL DEFAULT 'contact@maakirasoi.demo',
   address text NOT NULL DEFAULT 'Gopalganj, Sagar (Madhya Pradesh)',
   google_map_url text DEFAULT '',
   business_timing text NOT NULL DEFAULT 'सुबह 6:00 बजे से रात 10:00 बजे तक',
   monthly_delivery_charge numeric(10,2) NOT NULL DEFAULT 300,
   receipt_footer text DEFAULT 'धन्यवाद! माा की रसोई',
   currency text NOT NULL DEFAULT '₹',
-  admin_email text NOT NULL DEFAULT 'maakirasoiankit65679@gmail.com',
+  admin_email text NOT NULL DEFAULT 'contact@maakirasoi.demo',
   logo_url text DEFAULT '',
   updated_at timestamptz DEFAULT now()
 );

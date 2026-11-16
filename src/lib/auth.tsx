@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
+﻿import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
 import type { User } from '@supabase/supabase-js';
 import { supabase } from '@/lib/supabase';
 import type { Session } from '@supabase/supabase-js';
@@ -29,7 +29,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [loading, setLoading] = useState(true);
 
   const determineRole = async (u: User): Promise<Role> => {
-    let adminEmail = 'maakirasoiankit65679@gmail.com';
+    let adminEmail = 'contact@maakirasoi.demo';
     const { data: s } = await supabase.from('settings').select('admin_email').limit(1).maybeSingle();
     if (s?.admin_email) adminEmail = s.admin_email;
     if (u.email === adminEmail) return 'admin';
